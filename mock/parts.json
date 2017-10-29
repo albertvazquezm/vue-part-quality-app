@@ -1,0 +1,234 @@
+{
+  "parts": [
+    {
+      "name": "Part A",
+      "features": [
+        {
+          "name": "Feature #1",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Height",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Length",
+              "dev": "0",
+              "devOutTot": "3"
+            }
+          ]
+        },
+        {
+          "name": "Feature #2",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Height",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Length",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #11",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Control #339",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #912",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #17",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #131",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Control #319",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #612",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #22",
+              "dev": "0",
+              "devOutTot": "3"
+            }
+          ]
+        },
+        {
+          "name": "Feature #3",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            }
+          ]
+        },
+        {
+          "name": "Feature #4",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Height",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Length",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #337",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #221",
+              "dev": "0",
+              "devOutTot": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part B",
+      "features": [
+        {
+          "name": "Feature #2",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Height",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Length",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #11",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Control #339",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #912",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #17",
+              "dev": "0",
+              "devOutTot": "3"
+            }
+          ]
+        },
+        {
+          "name": "Feature #4",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Height",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Length",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #337",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #221",
+              "dev": "0",
+              "devOutTot": "3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
