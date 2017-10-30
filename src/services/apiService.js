@@ -6,12 +6,8 @@ const MAX_RANDOM_DEV = 3;
 
 export default class ApiService {
   static getParts() {
-    return new Observable.create((observer) => {
-      observer.next(getRandomizedPartValues(parts.parts))
-      setInterval(() => {
-        observer.next(getRandomizedPartValues(parts.parts))
-      }, PART_UPDATES_INTERVAL);
-    });
+    return Observable.timer(0, PART_UPDATES_INTERVAL)
+      .map(_ => getRandomizedPartValues(parts.parts));
   }
 }
 
