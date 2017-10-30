@@ -1,4 +1,4 @@
-# vue-quality-chart
+# vue-part-quality-app
 
 > A Vue.js project
 
@@ -30,6 +30,7 @@ interacting with state containers and that can be attached to a route
 * Simple DI container (i.e microdi-js)
 * Global scss file for constants and colors
 * Move logic of status into another config file in order to have better control over it
+* Use custom icons for displaying warning circle properly
 
 ## Grid considerations
 
