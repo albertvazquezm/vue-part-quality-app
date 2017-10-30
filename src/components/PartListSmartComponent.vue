@@ -6,19 +6,18 @@
 
 <script>
 
-import Actions from '../state/actions';
+import ActionConstants from '../state/actionConstants';
 import PartDumbComponent from './PartDumbComponent.vue';
 
 export default {
-  name: 'piece',
-  props: ['piece'],
-   computed: {
+  name: 'part-list',
+  computed: {
     parts () {
       return this.$store.state.parts
     }
   },
   created() {
-    this.$store.dispatch(Actions.subscribeToParts);
+    this.$store.dispatch(ActionConstants.subscribeToParts);
   },
   components: {
     PartDumbComponent

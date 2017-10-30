@@ -28,10 +28,10 @@ export default {
 
 <style lang="scss" scoped>
   .feature-list {
-    display: flex;
-    flex-wrap: wrap;
+    columns: 4;
     .feature-list__item {
-      margin: 5px;
+      break-inside: avoid;
+      margin-bottom: 15px;
     }
   }
 </style>

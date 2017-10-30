@@ -1,9 +1,12 @@
 <template>
   <div class="feature">
     <div :class="['feature__header', getFeatureStatusClass()]">
-      <i class="fa fa-circle-o"></i>
+      <i class="fa fa-circle-o feature__header-circle-icon"></i>
       <p class="feature__header-title">{{feature.name}}</p>
-      <StatusIconDumbComponent :status="getFeatureIconStatus(control)"></StatusIconDumbComponent>
+      <div class="feature__header-status-icon">
+        <StatusIconDumbComponent :status="getFeatureIconStatus()"></StatusIconDumbComponent>
+      </div>
+      <div class="clearfix"></div>
     </div>
     <div class="feature__body">
       <table>
@@ -20,6 +23,9 @@
           <td class="text-center"><StatusIconDumbComponent :colored="true" :status="getControlIconStatus(control)"></StatusIconDumbComponent></td>
         </tr>
       </table>
+    </div>
+    <div class="feature__footer">
+      <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
     </div>
   </div>
 </template>
@@ -89,15 +95,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  $padding: 15px;
+  $padding: 10px;
   .feature {
     .feature__header {
-      display: flex;
-      justify-content: space-between;
       padding: $padding;
       color: #fff;
       .feature__header-title {
         margin: 0;
+        float: left;
+      }
+      .feature__header-status-icon {
+        float: right;
+      }
+      .feature__header-circle-icon {
+        float: left;
+        font-size: 1.2em;
+        margin-right: 20px;
       }
       &.feature__header--danger {
         background: #F90719
@@ -112,6 +125,13 @@ export default {
     .feature__body {
       padding: $padding;
       background: #ddd;
+    }
+    .feature__footer {
+      background: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: $padding;
     }
     th, td {
       padding: 5px;

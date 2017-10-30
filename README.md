@@ -29,4 +29,11 @@ interacting with state containers and that can be attached to a route
 * Split store into separate files and folders for actions, mutations and initial state
 * Simple DI container (i.e microdi-js)
 * Global scss file for constants and colors
+* Move logic of status into another config file in order to have better control over it
+
+## Grid considerations
+
+In order to display features and controls dynamically without specifying colspans or rows, I've used CSS Columns.
+
+However, if we knew the number of items inside each feature, or if we had control over them (i.e expand button) we could have implemented the grid using CSS Grid specification. It allows you to span rows and columns to create a grid where items are properly aligned.
 

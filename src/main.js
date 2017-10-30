@@ -7,7 +7,6 @@ import storeFactory from './state/storeFactory';
 Vue.use(Vuex);
 
 // To favor tree-shaking, we're importing rxjs operators globally here
-import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/map';
 
 // Main component declaration

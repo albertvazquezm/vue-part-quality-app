@@ -52,16 +52,6 @@
               "devOutTot": "3"
             },
             {
-              "name": "Control #11",
-              "dev": "0",
-              "devOutTot": "1"
-            },
-            {
-              "name": "Control #339",
-              "dev": "0",
-              "devOutTot": "2"
-            },
-            {
               "name": "Control #912",
               "dev": "0",
               "devOutTot": "2"
@@ -140,6 +130,166 @@
               "name": "Control #221",
               "dev": "0",
               "devOutTot": "3"
+            },
+            {
+              "name": "Control #431",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Control #999",
+              "dev": "0",
+              "devOutTot": "2"
+            }
+          ]
+        },
+        {
+          "name": "Feature #5",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Height",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Length",
+              "dev": "0",
+              "devOutTot": "3"
+            }
+          ]
+        },
+        {
+          "name": "Feature #6",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Height",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Length",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #11",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Control #339",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #912",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #17",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #131",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Control #319",
+              "dev": "0",
+              "devOutTot": "2"
+            }
+          ]
+        },
+        {
+          "name": "Feature #7",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Radix #3",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Radix #4",
+              "dev": "0",
+              "devOutTot": "2"
+            }
+          ]
+        },
+        {
+          "name": "Feature #8",
+          "controls": [
+            {
+              "name": "Diameter",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Radix",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Height",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Length",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #337",
+              "dev": "0",
+              "devOutTot": "2"
+            },
+            {
+              "name": "Control #221",
+              "dev": "0",
+              "devOutTot": "3"
+            },
+            {
+              "name": "Control #732",
+              "dev": "0",
+              "devOutTot": "1"
+            },
+            {
+              "name": "Control #399",
+              "dev": "0",
+              "devOutTot": "2"
             }
           ]
         }

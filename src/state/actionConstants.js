@@ -1,3 +1,3 @@
-export default class Actions {
+export default class ActionConstants {
   static get subscribeToParts(){ return 'subscribeToParts'};
 }

@@ -1,18 +1,19 @@
 import ApiService from '../services/apiService';
-import Actions from './actions';
+import ActionConstants from './actionConstants';
+import MutationConstants from './mutationConstants';
 
 const store = {
   state: {
     parts: []
   },
   mutations: {
-    replaceParts (state, parts) {
+    [MutationConstants.replaceParts] (state, parts) {
       state.parts = parts;
     }
   },
   actions: {
-    [Actions.subscribeToParts]({commit}) {
-      ApiService.getParts().subscribe(parts => commit('replaceParts', parts));
+    [ActionConstants.subscribeToParts]({commit}) {
+      ApiService.getParts().subscribe(parts => commit(MutationConstants.replaceParts, parts));
     }
   }
 }
